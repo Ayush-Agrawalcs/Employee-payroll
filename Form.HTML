@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Payroll</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #f7f7f7;
+    }
+
+    .header {
+      background-color: white;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      padding: 0px 90px;
+    }
+
+    .header img {
+      height: 40px;
+    }
+
+    .header div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 30px;
+    }
+
+    .profile-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .custom {
+      min-width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="https://img.icons8.com/ios-filled/50/82a70c/user-group-man-man.png" />
+    <div>
+      <span class="ms-2 fw-bold text-success">Employee</span>
+      <span class="ms-1 fw-bold text-secondary">PAYROLL</span>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <div class="card">
+          <h3 class="mb-4">Employee Payroll Form</h3>
+          <form>
+            <div class="row mb-3">
+              <label class="col-sm-3 col-form-label">Name</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" required />
+              </div>
+            </div>
+            <div class="row mb-3 align-items-center">
+              <label class="col-sm-3 col-form-label">Profile Image</label>
+              <div class="col-sm-9 d-flex gap-3">
+                <input type="radio" name="profile" />
+                <img class="profile-img" src="https://randomuser.me/api/portraits/women/1.jpg" />
+
+                <input type="radio" name="profile" />
+                <img class="profile-img" src="https://randomuser.me/api/portraits/men/1.jpg" />
+
+                <input type="radio" name="profile" />
+                <img class="profile-img" src="https://randomuser.me/api/portraits/women/2.jpg" />
+
+                <input type="radio" name="profile" />
+                <img class="profile-img" src="https://randomuser.me/api/portraits/men/2.jpg" />
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <label class="col-sm-3 col-form-label">Gender</label>
+              <div class="col-sm-9">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="gender" />
+                  <label class="form-check-label">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="gender" />
+                  <label class="form-check-label">Female</label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label class="col-sm-3 col-form-label">Department</label>
+              <div class="col-sm-9">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" />
+                  <label class="form-check-label">HR</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" />
+                  <label class="form-check-label">Sales</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" />
+                  <label class="form-check-label">Finance</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" />
+                  <label class="form-check-label">Engineer</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" />
+                  <label class="form-check-label">Others</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <label class="col-sm-3 col-form-label">Salary</label>
+              <div class="col-sm-9">
+                <select class="form-select">
+                  <option>Select Salary</option>
+                  <option>10000</option>
+                  <option>20000</option>
+                  <option>30000</option>
+                  <option>40000</option>
+                  <option>50000</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label class="col-sm-3 col-form-label">Start Date</label>
+              <div class="d-flex gap-4 col-sm-4 ">
+                <select class="form-select w-auto">
+                  <option>Day</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                  <option>20</option>
+                  <option>21</option>
+                  <option>22</option>
+                  <option>23</option>
+                  <option>24</option>
+                  <option>25</option>
+                  <option>26</option>
+                  <option>27</option>
+                  <option>28</option>
+                  <option>29</option>
+                  <option>30</option>
+                  <option>31</option>
+                </select>
+                <select class="form-select w-auto">
+                  <option>Month</option>
+                  <option>Janunary</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
+                </select>
+                <select class="form-select w-auto">
+                  <option>Year</option>
+                  <option>2015</option>
+                  <option>2016</option>
+                  <option>2017</option>
+                  <option>2018</option>
+                  <option>2019</option>
+                  <option>2020</option>
+                  <option>2021</option>
+                  <option>2022</option>
+                  <option>2023</option>
+                  <option>2024</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <label class="col-sm-3 col-form-label">Notes</label>
+              <div class="col-sm-9">
+                <textarea class="form-control" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between">
+              <button type="button" class="btn btn-secondary custom">Cancel</button>
+              <div>
+                <button type="submit" class="btn btn-primary custom">Submit</button>
+                <button type="reset" class="btn btn-outline-secondary custom">Reset</button>
+              </div>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
