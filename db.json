@@ -1,0 +1,55 @@
+{
+  "Employee": [
+    {
+      "id": "8657",
+      "name": "aa",
+      "img": "https://randomuser.me/api/portraits/men/1.jpg",
+      "gender": "male",
+      "dep": [
+        "HR",
+        "sales"
+      ],
+      "salary": "20000",
+      "date": "18-june-20",
+      "text": "hello"
+    },
+    {
+      "id": "1d79",
+      "name": "aa",
+      "img": "https://randomuser.me/api/portraits/men/1.jpg",
+      "gender": "male",
+      "dep": [
+        "HR",
+        "sales"
+      ],
+      "salary": "20000",
+      "date": "17-Nov-20",
+      "text": "gfchvjb"
+    },
+    {
+      "id": "fef4",
+      "name": "aa",
+      "img": "https://randomuser.me/api/portraits/men/1.jpg",
+      "gender": "male",
+      "dep": [
+        "HR"
+      ],
+      "salary": "20000",
+      "date": "17-Aug-20",
+      "text": "ghjn"
+    },
+    {
+      "id": "a141",
+      "name": "ab",
+      "img": "https://randomuser.me/api/portraits/men/1.jpg",
+      "gender": "male",
+      "dep": [
+        "HR",
+        "sales"
+      ],
+      "salary": "20000",
+      "date": "18-oct-20",
+      "text": "hjbknl"
+    }
+  ]
+}
