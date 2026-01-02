@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    empId = null;
+
 const tab = document.getElementById("tab");
     const searchInput = document.getElementById("search");
     let allemployees = [];
@@ -111,32 +111,5 @@ const tab = document.getElementById("tab");
     loadEmployees();
 }
 
-// Load edit data
-// async function loadEditData(id) {
-//     const res = await fetch(`http://localhost:3000/Employee/${id}`);
-//     const data = await res.json();
 
-//     document.getElementById("name").value = data.name;
-//     document.getElementById("salary").value = data.salary;
-//     document.getElementById("text").value = data.text;
-
-//     const [day, month, year] = data.date.split("-");
-//     document.getElementById("day").value = day;
-//     document.getElementById("month").value = month;
-//     document.getElementById("year").value = year;
-
-//     const genderRadio = document.querySelector(`input[name="gender"][value="${data.gender}"]`);
-//     if (genderRadio) genderRadio.checked = true;
-
-//     const profileRadio = document.querySelector(`input[name="pro"][value="${data.img}"]`);
-//     if (profileRadio) profileRadio.checked = true;
-
-//     if (Array.isArray(data.dep)) {
-//         data.dep.forEach(dep => {
-//             const checkbox = document.querySelector(`input[name="checkbox"][value="${dep}"]`);
-//             if (checkbox) checkbox.checked = true;
-//         });
-//     }
-//     document.getElementById("submit").innerHTML="Update";
-// }
 })

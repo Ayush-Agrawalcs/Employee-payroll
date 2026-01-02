@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  const empId = new URLSearchParams(window.location.search).get("id");
+const empId = new URLSearchParams(window.location.search).get("id");
 
  
   if (empId) {
