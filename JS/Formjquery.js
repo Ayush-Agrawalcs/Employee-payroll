@@ -89,7 +89,7 @@ if (!isValid) return;
       gender,
       dep: departments,
       salary,
-      date: `${day}-${month}-${year}`,
+      date: `${day} ${month} ${year}`,
       text
     };
 

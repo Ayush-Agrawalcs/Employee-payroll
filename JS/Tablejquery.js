@@ -33,10 +33,10 @@ $(document).ready(function () {
           </td>
           <td>${it.gender}</td>
           <td>${deptHtml}</td>
-          <td>${it.salary}</td>
+          <td>₹${it.salary}</td>
           <td>${it.date}</td>
           <td>
-            <i class="bi bi-trash delete-btn cursor" data-id="${it.id}"></i>
+            <i class="bi bi-trash delete-btn cursor me-2" data-id="${it.id}"></i>
             <i class="bi bi-pencil edit-btn cursor" data-id="${it.id}"></i>
           </td>
         </tr>

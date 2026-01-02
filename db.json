@@ -1,67 +1,17 @@
 {
   "Employee": [
     {
-      "name": "aa",
-      "img": "https://randomuser.me/api/portraits/men/1.jpg",
-      "gender": "male",
-      "dep": [
-        "HR"
-      ],
-      "salary": "20000",
-      "date": "17-Aug-20",
-      "text": "ghjn",
-      "id": "fef4"
-    },
-    {
-      "id": "a141",
-      "name": "ab",
-      "img": "https://randomuser.me/api/portraits/men/1.jpg",
+      "id": "970a",
+      "name": "Ayuhs",
+      "img": "../Assests/men.jpg",
       "gender": "male",
       "dep": [
         "HR",
         "sales"
       ],
       "salary": "20000",
-      "date": "18-oct-20",
-      "text": "hjbknl"
-    },
-    {
-      "name": "Ankit",
-      "img": "https://randomuser.me/api/portraits/men/1.jpg",
-      "gender": "male",
-      "dep": [
-        "HR",
-        "sales"
-      ],
-      "salary": "20000",
-      "date": "18-oct-2023",
-      "text": "ghjk",
-      "id": "535d"
-    },
-    {
-      "id": "34cb",
-      "name": "ank",
-      "img": "https://randomuser.me/api/portraits/men/1.jpg",
-      "gender": "male",
-      "dep": [
-        "HR",
-        "sales"
-      ],
-      "salary": "40000",
-      "date": "18-sept-2023",
-      "text": "cfghj,k"
-    },
-    {
-      "id": "f7c6",
-      "name": "fghjkl",
-      "img": "https://randomuser.me/api/portraits/men/1.jpg",
-      "gender": "male",
-      "dep": [
-        "HR"
-      ],
-      "salary": "30000",
-      "date": "16-oct-2022",
-      "text": "cfghvjb"
+      "date": "18 oct 2019",
+      "text": "hjb"
     }
   ]
 }

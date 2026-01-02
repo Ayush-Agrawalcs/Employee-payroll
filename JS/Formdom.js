@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 gender,
                 dep,
                 salary,
-                date: `${day}-${month}-${year}`,
+                date: `${day} ${month} ${year}`,
                 text
             };
 
