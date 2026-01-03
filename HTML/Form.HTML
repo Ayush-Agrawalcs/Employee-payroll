@@ -25,12 +25,15 @@
       <div class="col-lg-8 col-md-10">
         <div class="card">
           <h3 class="mb-4">Employee Payroll Form</h3>
+
+
+
           <form id="employee-form">
             <div class="row mb-3">
-              <label class="col-sm-3 col-form-label">Name</label>
+              <label class="col-sm-3 col-form-label ">Name</label>
               <div class="col-sm-9">
                 <input type="text" class="form-control"   id="name"/>
-                 <p id="Error" class="c">Please choose Name</p>
+                 <p id="Error" class="c">please Write Name *.</p>
               </div>
             </div>
             
@@ -38,7 +41,7 @@
               <label class="col-sm-3 col-form-label">Profile Image</label>
               <div class="col-sm-3">
               <div class="col-sm-9 d-flex gap-3">
-                <input type="radio" name="pro" value="../Assests/women1.jpg" />
+                <input type="radio" name="pro" value="../Assests/women.jpg" />
                 <img class="profile-img" src="../Assests/women.jpg" />
 
                 <input type="radio" name="pro" value="../Assests/men.jpg"/>
@@ -50,7 +53,7 @@
                 <input type="radio"name="pro" value="../Assests/women3.jpg" />
                 <img class="profile-img" src="../Assests/women3.jpg" />
               </div>
-               <p class="c" id="Error1">Please choose imamge</p>
+               <p class="c" id="Error1">please choose image *.</p>
                </div>
             </div>
              
@@ -66,7 +69,7 @@
                   <input class="form-check-input" type="radio" name="gender"  value="Female" />
                   <label class="form-check-label">Female</label>
                 </div>
-                 <p class="c" id="Error2">Please choose gender</p>
+                 <p class="c" id="Error2">please choose gender *.</p>
               </div>
             </div>
            
@@ -94,7 +97,7 @@
                   <input class="form-check-input department-checkbox" type="checkbox" name="checkbox" value="Others" />
                   <label class="form-check-label">Others</label>
                 </div>
-                <p class="c" id="Error3">Please choose Department</p>
+                <p class="c" id="Error3">please choose Department *.</p>
               </div>
             </div>
     
@@ -109,7 +112,7 @@
                   <option value="40000">40000</option>
                   <option value="50000">50000</option>
                 </select>
-                 <p class='c' id="Error4">Please choose salary</p>
+                 <p class='c' id="Error4">please choose salary *.</p>
               </div>
             </div>
             <div class="row mb-3">
@@ -179,7 +182,7 @@
                   <option value="2024">2024</option>
                 </select>
               </div>
-              <p class="c" id="Error5">Enter the Start-Dtae</p>
+              <p class="c" id="Error5">please Enter the Start-Date *.</p>
               </div>
             </div>
             
@@ -188,7 +191,7 @@
               <label class="col-sm-3 col-form-label">Notes</label>
               <div class="col-sm-9">
                 <textarea class="form-control" rows="3" id="text"></textarea>
-                <p class="c" id="Error6">Please write Note</p>
+                <p class="c" id="Error6">please write Note *.</p>
               </div>
               
             </div>
@@ -199,7 +202,7 @@
               </a>
               <div>
                 <a href="temp.html">
-                <button type="submit" class="btn btn-secondary custom" id="submit">Submit</button>
+                <button type="submit" class="btn btn-secondary custom cust" id="submit">Submit</button>
                 </a>
                 <button type="reset" class="btn btn-secondary custom">Reset</button>
               </div>
@@ -213,6 +216,6 @@
   </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
- <!-- <script src="../JS/Formdom.js"></script> -->
-  <script src="../JS/Formjquery.js"></script>
+ <script src="../JS/Dom/Formdom.js"></script>
+  <!-- <script src="../JS/Jquerry/Formjquery.js"></script> -->
 </html>
