@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
 
-
-            if (name === "") {
+            const name_regex=new RegExp(/^[a-zA-Z\s'-]+$/);
+            if (name === "" || !name_regex.test(name)) {
                 document.getElementById("Error").style.display = "block";
                 return;
             }
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("salary").value = data.salary;
     document.getElementById("text").value = data.text;
 
-    const [day, month, year] = data.date.split("-");
+    const [day, month, year] = data.date.split(" ");
     document.getElementById("day").value = day;
     document.getElementById("month").value = month;
     document.getElementById("year").value = year;

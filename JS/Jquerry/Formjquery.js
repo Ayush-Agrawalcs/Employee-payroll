@@ -17,7 +17,7 @@ const empId = new URLSearchParams(window.location.search).get("id");
         $(`.department-checkbox[value="${dep}"]`).prop("checked", true);
       });
 
-      const [day, month, year] = data.date.split("-");
+      const [day, month, year] = data.date.split(" ");
       $("#day").val(day);
       $("#month").val(month);
       $("#year").val(year);

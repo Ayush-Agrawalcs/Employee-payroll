@@ -59,27 +59,32 @@ const tab = document.getElementById("tab");
                 });
             }
 
-
             const Salary = document.createElement("td");
-            Salary.textContent = item.salary;
-
+             const wrapp = document.createElement("div");
+             const symbol = document.createElement("span");
+             symbol.textContent="₹";
+             const symbol1 = document.createElement("span");
+            symbol1.textContent = item.salary;
+            wrapp.append(symbol,symbol1);
+            Salary.appendChild(wrapp)
+            
 
             const Date = document.createElement("td");
             Date.textContent = item.date;
 
+            const deleteBtn = document.createElement("button");
+            deleteBtn.className = "btn btn-sm";
+            deleteBtn.innerHTML = `<i class="bi bi-trash me-1"></i>`;
+            deleteBtn.onclick = () => deleteItem(item.id);
 
             const Action = document.createElement("td");
             const editBtn = document.createElement("button");
-            editBtn.className = "btn btn-sm me-2";
+            editBtn.className = "btn btn-sm";
             editBtn.innerHTML = `<i class="bi bi-pencil"></i>`;
             editBtn.onclick = () => window.location.href = `Form.HTML?id=${item.id}`;
 
-            const deleteBtn = document.createElement("button");
-            deleteBtn.className = "btn btn-sm";
-            deleteBtn.innerHTML = `<i class="bi bi-trash"></i>`;
-            deleteBtn.onclick = () => deleteItem(item.id);
 
-            Action.append(editBtn, deleteBtn);
+            Action.append(deleteBtn,editBtn);
 
             tr.append(User, Gender, Dept, Salary, Date, Action);
             tab.appendChild(tr);
