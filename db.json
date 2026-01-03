@@ -1,8 +1,7 @@
 {
   "Employee": [
     {
-      "id": "970a",
-      "name": "Ayuhs",
+      "name": "Ayush",
       "img": "../Assests/men.jpg",
       "gender": "male",
       "dep": [
@@ -10,8 +9,22 @@
         "sales"
       ],
       "salary": "20000",
-      "date": "18 oct 2019",
-      "text": "hjb"
+      "date": "15 Nov 2021",
+      "text": "hjb",
+      "id": "970a"
+    },
+    {
+      "name": "Ayushi",
+      "img": "../Assests/women.jpg",
+      "gender": "Female",
+      "dep": [
+        "HR",
+        "sales"
+      ],
+      "salary": "20000",
+      "date": "15 Nov 2022",
+      "text": "hello",
+      "id": "3aa2"
     }
   ]
 }
